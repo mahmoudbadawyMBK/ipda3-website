@@ -1,0 +1,278 @@
+html
+{
+    direction: rtl;
+    padding:0px;
+    margin: 0px;
+    height: auto; 
+    font-family:'Cairo',sans-serif ;
+
+}
+
+.works{
+    width: 100%;
+    height: 1800px;
+    
+    
+    background-repeat: repeat;
+    margin-top: 0px;
+}
+.all{
+   
+    background-image: url('../imgs/bg30-Ar1web.gif');
+}
+
+.line{
+    text-align: right;
+    font-size: 30px;
+    padding: 20px;
+    border-right: 3px solid #3AADE6;
+    margin-right: 20px;
+}
+
+.mbk2{
+    color: aqua;
+    width: 5%;
+    border: 
+
+}
+
+
+
+
+
+
+
+.number{
+    padding-bottom: 80px;
+    margin-right: 625px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/****** صفحة المقالات *******/
+.all1{
+
+}
+.inapps{
+    margin-left: 70px;
+   
+    
+}
+.works2{
+    width: 100%;
+    height: 1400px;
+    background-image: url(../imgs/articles.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+
+
+
+/******************** صفحة المشاريع ***********************/
+
+.all2{
+    
+    background: none;    
+}
+
+.preview{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.preview img{
+    width: 50%;
+    margin-left: 390px
+}
+
+.lorem{
+    background-image: url('../imgs/details-bg.png');
+    padding: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.lorem p {
+    font-size: 26px;
+    color: beige;
+    text-align: right;
+}
+.smooth{
+}
+
+           /******* Responsive Smooth Card Carousel With jQuery And CSS3 *******/     
+            .card-carousel {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+            }
+
+            .card-carousel .my-card {
+              height: 20rem;
+              width: 12rem;
+              position: relative;
+              z-index: 1;
+              -webkit-transform: scale(0.6) translateY(-2rem);
+              transform: scale(0.6) translateY(-2rem);
+              opacity: 0;
+              cursor: pointer;
+              pointer-events: none;
+              /*background: #2e5266;
+              background: linear-gradient(to top, #2e5266, #6e8898);*/
+              transition: 1s;
+            }
+
+            .card-carousel .my-card:after {
+              content: '';
+              position: absolute;
+              height: 2px;
+              width: 100%;
+              border-radius: 100%;
+              background-color: rgba(0,0,0,0.3);
+              bottom: -5rem;
+              -webkit-filter: blur(4px);
+              filter: blur(4px);
+            }
+
+            .card-carousel .my-card.active {
+              z-index: 3;
+              -webkit-transform: scale(1) translateY(0) translateX(0);
+              transform: scale(1) translateY(0) translateX(0);
+              opacity: 1;
+              pointer-events: auto;
+              transition: 1s;
+            }
+
+            .card-carousel .my-card.prev, .card-carousel .my-card.next {
+              z-index: 2;
+              -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+              transform: scale(0.8) translateY(-1rem) translateX(0);
+              opacity: 0.6;
+              pointer-events: auto;
+              transition: 1s;
+            }    
+
+
+
+            .card-carousel .my-card:nth-child(0):before {
+              content: '0';
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              transform: translateX(-50%) translateY(-50%);
+              font-size: 3rem;
+              font-weight: 300;
+              color: #fff;
+            }
+
+            .card-carousel .my-card:nth-child(1):before {
+              content:;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              transform: translateX(-50%) translateY(-50%);
+              font-size: 3rem;
+              font-weight: 300;
+              color: #fff;
+            }
+
+            .card-carousel .my-card:nth-child(2):before {
+              content: ;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              transform: translateX(-50%) translateY(-50%);
+              font-size: 3rem;
+              font-weight: 300;
+              color: #fff;
+            }
+
+            .card-carousel .my-card:nth-child(3):before {
+              content: ;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              transform: translateX(-50%) translateY(-50%);
+              font-size: 3rem;
+              font-weight: 300;
+              color: #fff;
+            }
+
+            .card-carousel .my-card:nth-child(4):before {
+              content: ;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              transform: translateX(-50%) translateY(-50%);
+              font-size: 3rem;
+              font-weight: 300;
+              color: #fff;
+            }  
+            /******** end Responsive Smooth Card Carousel With jQuery And CSS3  */
+/************ صفحة تفاصيل المشروع project **************/
+
+.bd1{
+  height: 1000px; 
+  background-image: url('../imgs/bg30-Ar1web.gif');
+}
+
+.card4{
+   margin-left: 200px;
+    height: auto;
+}
+
+
+.card-img{
+    width: 60%;
+    margin: 40px;
+    margin-right: 180px;
+    box-shadow: 10px solid #ccc;
+    
+}
+
+.line88{
+    text-align: right;
+    font-size: 24px;
+    padding: 20px;
+    border-right: 3px solid #3AADE6;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
